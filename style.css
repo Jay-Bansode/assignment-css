@@ -1,0 +1,78 @@
+
+
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .para-img-1{
+      background-image: url(D:/HTML/Parallax_css_MiniProject/images/main.jpg);
+      min-height: 100%;
+  }
+  .para-img-2{
+    background-image: url(D:/HTML/Parallax_css_MiniProject/images/Mizoram.jpg);
+    min-height: 100%;
+}
+.para-img-3{
+    background-image: url(D:/HTML/Parallax_css_MiniProject/images/Assam.jpg);
+    min-height: 100%;
+}
+.para-img-4{
+    background-image: url(D:/HTML/Parallax_css_MiniProject/images/Manipur.jpg);
+    min-height: 100%;
+}
+.para-img-5{
+    background-image: url(D:/HTML/Parallax_css_MiniProject/images/Meghalaya.jpg);
+    min-height: 100%;
+}
+.para-img-6{
+    background-image: url(D:/HTML/Parallax_css_MiniProject/images/Tripura.jpg);
+    min-height: 100%;
+}
+.para-img-7{
+    background-image: url(D:/HTML/Parallax_css_MiniProject/images/Arunachal.jpg);
+    min-height: 100%;
+}
+.para-img-8{
+    background-image: url(D:/HTML/Parallax_css_MiniProject/images/Nagaland.jpg);
+    min-height: 100%;
+}
+
+
+  .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7,.para-img-8{
+      position: relative;
+      opacity: 0.70;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .p-text{  
+    width: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background: thistle;
+  } 
+  .orange{
+      color: orangered;
+      font-size: 2rem;
+      font-weight: 800;
+  }
+  .section{
+      padding: 3rem 8rem;
+      text-align: center;
+  }
